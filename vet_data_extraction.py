@@ -73,13 +73,3 @@ with open("output.csv", "w", newline="") as f:
     fieldnames = ["Practice Name", "Physical Location", "Phone", "Fax", "Email", "Website", "Veterinarians", "RVT", "Services provided", "Responsible Vet", "Species", "City", "Province"]
     writer = csv.D
 
-
-
-###From Copilot
-#Use Beautiful soup in python to write me a code that scrapes or extracts data of Physical Location:, Phone:, Fax:, Email:, Website:, Veterinarians:, RVT's: , 
-# Services provided for the following species :, Practice Name, Responsible Vet, Species, City, Province from: https://abvma.ca/company/roster/companyRosterView.html?companyRosterId=23
-#Save the output in a CSV file.
-
-# import requests
-# from bs4 import BeautifulSoup
-# import csv
